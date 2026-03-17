@@ -17,6 +17,8 @@ function setup() {
   angleMode(DEGREES);
 
   arcColor = color(random(255), random(255), random(255));
+
+  p5SimpleAREnableGesture(true);
 }
 
 function draw() {
