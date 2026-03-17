@@ -72,6 +72,8 @@ function draw() {
 }
 
 // change color each time you press
-function mouseClicked() {
+
+// change color each time you press
+function touchStart() {
   arcColor = color(random(255), random(255), random(255));
  } 
